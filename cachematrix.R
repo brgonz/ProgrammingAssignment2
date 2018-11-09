@@ -13,7 +13,7 @@ getinv <- function()inv
 list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
 
-}
+
 
 
 ## this function calculates the inverse of a matrix set by the function makeCacheMatrix, checking first if such an inverse has been
@@ -32,4 +32,4 @@ x$setinv(m)
 m
 }
 
-}
+
