@@ -1,6 +1,5 @@
 ## this function stores the inverse of a matrix
-## 
-## Write a short comment describing this function
+## storing it on cache
 makeCacheMatrix <- function(x = matrix()){
   inv <- NULL
   set <- function(y){
