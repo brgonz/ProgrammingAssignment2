@@ -1,6 +1,5 @@
-## this function stores the inverse of a matrix
-## 
-## Write a short comment describing this function
+## this function calculates a matrix and gets its inverse
+## and stores it in cache
 makeCacheMatrix <- function(x = matrix()){
   inv <- NULL
   set <- function(y){
@@ -17,7 +16,7 @@ list(set = set, get = get, setinv = setinv, getinv = getinv)
 
 
 ## this function calculates the inverse of a matrix set by the function makeCacheMatrix, checking first if such an inverse has been
-## previously calculated 
+## previously calculated and stored
 
 
 cacheSolve <- function(x = matrix(), ...){
